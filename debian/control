@@ -1,0 +1,12 @@
+Source: ros-groovy-console-bridge
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), libboost1.46-all-dev, ros-groovy-catkin
+Homepage: https://github.com/ros/console_bridge
+Standards-Version: 3.9.2
+
+Package: ros-groovy-console-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost1.46-all-dev
+Description: Lightweight tool for forwarding output from libraries to other logging systems.
