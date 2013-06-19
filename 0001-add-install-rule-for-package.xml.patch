@@ -1,0 +1,23 @@
+From 2eacc56546805efbb91e1862957752a3df11dac5 Mon Sep 17 00:00:00 2001
+From: Ioan Sucan <isucan@willowgarage.com>
+Date: Wed, 19 Jun 2013 12:07:24 +0300
+Subject: [PATCH] add install rule for package.xml
+
+---
+ CMakeLists.txt |    3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 4de4210..0cc6c28 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -46,3 +46,6 @@ if (NOT MSVC)
+   configure_file("${pkg_conf_file}.in" "${pkg_conf_file}" @ONLY)
+   install(FILES ${pkg_conf_file} DESTINATION lib/pkgconfig/ COMPONENT pkgconfig)
+ endif()
++
++# Install catkin package.xml
++install(FILES package.xml DESTINATION share/console_bridge)
+-- 
+1.7.9.5
+
