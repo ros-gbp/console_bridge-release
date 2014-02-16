@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
   <name>console_bridge</name>
-  <version>0.2.4</version>
+  <version>0.2.6</version>
   <description>Lightweight tool for forwarding output from libraries to other logging systems.</description>
-  <maintainer email="isucan@willowgarage.com">Ioan Sucan</maintainer>
+  <maintainer email="isucan@google.com">Ioan Sucan</maintainer>
 
   <license>BSD</license>
   <url>https://github.com/ros/console_bridge</url>
