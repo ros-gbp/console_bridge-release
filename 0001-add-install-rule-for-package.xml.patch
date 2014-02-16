@@ -1,0 +1,23 @@
+From 9778c9de8c8d913fe6452b04b6023c86d60798f9 Mon Sep 17 00:00:00 2001
+From: Ioan Sucan <isucan@gmail.com>
+Date: Sat, 15 Feb 2014 19:28:42 -0800
+Subject: [PATCH] add install rule for package.xml
+
+---
+ CMakeLists.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 8d3f920..8a1b7f3 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -62,3 +62,6 @@ endif()
+ SET_DIRECTORY_PROPERTIES(PROPERTIES
+   ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_BINARY_DIR}/console_bridge-config.cmake
+   ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_BINARY_DIR}/console_bridge.pc)
++
++# Install catkin package.xml
++install(FILES package.xml DESTINATION share/console_bridge)
+-- 
+1.9.0.rc1.175.g0b1dcb5
+
