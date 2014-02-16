@@ -1,0 +1,12 @@
+Source: ros-indigo-console-bridge
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@google.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, libboost-all-dev
+Homepage: https://github.com/ros/console_bridge
+Standards-Version: 3.9.2
+
+Package: ros-indigo-console-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-catkin
+Description: Lightweight tool for forwarding output from libraries to other logging systems.
