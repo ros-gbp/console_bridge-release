@@ -1,4 +1,4 @@
-From 8045a638b22b286ceebac2d5d2c9b6010d5c8f95 Mon Sep 17 00:00:00 2001
+From 0661f787931c4fccd695b0acbb0241eb267d81a5 Mon Sep 17 00:00:00 2001
 From: Ioan Sucan <isucan@gmail.com>
 Date: Sat, 15 Feb 2014 19:28:42 -0800
 Subject: [PATCH] add install rule for package.xml
