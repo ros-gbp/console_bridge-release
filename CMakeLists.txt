@@ -34,7 +34,7 @@ endif()
 
 add_library(${PROJECT_NAME} src/console.cpp)
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
-set_target_properties(${PROJECT_NAME} PROPERTIES SOVERSION 0.2)
+#set_target_properties(${PROJECT_NAME} PROPERTIES SOVERSION 0.2)
 
 install(TARGETS ${PROJECT_NAME}
   DESTINATION ${CMAKE_INSTALL_LIBDIR})
@@ -62,6 +62,3 @@ endif()
 SET_DIRECTORY_PROPERTIES(PROPERTIES
   ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_BINARY_DIR}/console_bridge-config.cmake
   ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_BINARY_DIR}/console_bridge.pc)
-
-# Install catkin package.xml
-install(FILES package.xml DESTINATION share/console_bridge)
