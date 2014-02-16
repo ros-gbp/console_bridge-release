@@ -62,6 +62,3 @@ endif()
 SET_DIRECTORY_PROPERTIES(PROPERTIES
   ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_BINARY_DIR}/console_bridge-config.cmake
   ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_BINARY_DIR}/console_bridge.pc)
-
-# Install catkin package.xml
-install(FILES package.xml DESTINATION share/console_bridge)
