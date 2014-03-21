@@ -1,4 +1,4 @@
-From 0661f787931c4fccd695b0acbb0241eb267d81a5 Mon Sep 17 00:00:00 2001
+From 56ade927a13780e74f9838f200d768d578f22f89 Mon Sep 17 00:00:00 2001
 From: Ioan Sucan <isucan@gmail.com>
 Date: Sat, 15 Feb 2014 19:28:42 -0800
 Subject: [PATCH] add install rule for package.xml
@@ -8,7 +8,7 @@ Subject: [PATCH] add install rule for package.xml
  1 file changed, 3 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 8d3f920..8a1b7f3 100644
+index 8477ad3..502e6f6 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -62,3 +62,6 @@ endif()
@@ -19,5 +19,5 @@ index 8d3f920..8a1b7f3 100644
 +# Install catkin package.xml
 +install(FILES package.xml DESTINATION share/console_bridge)
 -- 
-1.9.0.rc1.175.g0b1dcb5
+1.9.1.423.g4596e3a
 
