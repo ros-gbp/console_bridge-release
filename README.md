@@ -1,3 +1,22 @@
+## console_bridge (indigo) - 0.2.8-0
+
+The packages in the `console_bridge` repository were released into the `indigo` distro by running `/usr/bin/bloom-release console_bridge -t indigo -r indigo --edit` on `Mon, 23 Jun 2014 22:55:45 -0000`
+
+The `console_bridge` package was released.
+
+Version of package(s) in repository `console_bridge`:
+- rosdistro version: `0.2.7-0`
+- old version: `0.2.7-0`
+- new version: `0.2.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.10`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## console_bridge (indigo) - 0.2.7-0
 
 User `isucan@isucan-glaptop0` released the packages in the `console_bridge` repository into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo console_bridge` on `Fri, 21 Mar 2014 03:55:22 -0000`
